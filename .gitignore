@@ -1,0 +1,14 @@
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+.DS_Store
+.claude/
+# smoke-preset checkpoints are debugging leftovers; full-preset ones are kept
+Question 1/checkpoints/*-smoke-*.pt
+# LaTeX build files
+Report/*.aux
+Report/*.log
+Report/*.out
+Report/*.toc
+# course handout, not ours to publish
+DL4STG-PA1.pdf

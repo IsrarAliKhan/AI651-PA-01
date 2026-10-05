@@ -1,0 +1,99 @@
+                config seed        rmse        mae      smape
+0          persistence    -  124.057070  86.537744  88.249228
+1  seasonal naive (24)    -  119.625901  85.380377  93.597978
+2        last-24h mean    -  112.031377  80.566792  88.824594
+no ext, raw target | seed 0
+  seed 0 epoch 1: val RMSE 96.27 MAE 74.33 sMAPE 81.4 (35s)
+  seed 0 epoch 2: val RMSE 95.56 MAE 73.51 sMAPE 81.2 (70s)
+  seed 0 epoch 3: val RMSE 100.37 MAE 79.70 sMAPE 83.6 (105s)
+  seed 0 epoch 4: val RMSE 98.79 MAE 78.97 sMAPE 83.4 (141s)
+no ext, raw target | seed 1
+  seed 1 epoch 1: val RMSE 95.33 MAE 71.79 sMAPE 81.1 (35s)
+  seed 1 epoch 2: val RMSE 98.93 MAE 78.31 sMAPE 83.0 (71s)
+  seed 1 epoch 3: val RMSE 99.84 MAE 80.21 sMAPE 84.0 (106s)
+no ext, raw target | seed 2
+  seed 2 epoch 1: val RMSE 95.39 MAE 71.66 sMAPE 81.0 (35s)
+  seed 2 epoch 2: val RMSE 95.25 MAE 70.78 sMAPE 81.3 (71s)
+  seed 2 epoch 3: val RMSE 94.94 MAE 71.74 sMAPE 81.1 (106s)
+  seed 2 epoch 4: val RMSE 94.96 MAE 72.22 sMAPE 81.0 (142s)
+  seed 2 epoch 5: val RMSE 95.37 MAE 73.44 sMAPE 81.2 (178s)
+no ext, log target | seed 0
+  seed 0 epoch 1: val RMSE 96.54 MAE 67.77 sMAPE 82.7 (35s)
+  seed 0 epoch 2: val RMSE 96.39 MAE 67.47 sMAPE 82.7 (71s)
+  seed 0 epoch 3: val RMSE 96.41 MAE 67.34 sMAPE 83.0 (106s)
+  seed 0 epoch 4: val RMSE 96.55 MAE 67.25 sMAPE 83.3 (142s)
+no ext, log target | seed 1
+  seed 1 epoch 1: val RMSE 96.79 MAE 67.76 sMAPE 83.0 (36s)
+  seed 1 epoch 2: val RMSE 96.66 MAE 67.61 sMAPE 83.0 (73s)
+  seed 1 epoch 3: val RMSE 96.82 MAE 67.54 sMAPE 83.3 (109s)
+  seed 1 epoch 4: val RMSE 96.64 MAE 67.47 sMAPE 83.1 (146s)
+  seed 1 epoch 5: val RMSE 96.60 MAE 67.46 sMAPE 83.1 (182s)
+  seed 1 epoch 6: val RMSE 96.67 MAE 67.48 sMAPE 83.1 (218s)
+  seed 1 epoch 7: val RMSE 96.64 MAE 67.46 sMAPE 83.1 (254s)
+no ext, log target | seed 2
+  seed 2 epoch 1: val RMSE 96.62 MAE 67.79 sMAPE 82.8 (36s)
+  seed 2 epoch 2: val RMSE 96.77 MAE 67.67 sMAPE 83.0 (72s)
+  seed 2 epoch 3: val RMSE 96.68 MAE 67.59 sMAPE 83.0 (108s)
+ext past-only, raw target | seed 0
+  seed 0 epoch 1: val RMSE 95.45 MAE 72.95 sMAPE 81.4 (37s)
+  seed 0 epoch 2: val RMSE 93.11 MAE 70.14 sMAPE 80.2 (73s)
+  seed 0 epoch 3: val RMSE 92.97 MAE 70.79 sMAPE 80.4 (109s)
+  seed 0 epoch 4: val RMSE 93.06 MAE 70.76 sMAPE 80.5 (146s)
+  seed 0 epoch 5: val RMSE 93.12 MAE 71.32 sMAPE 80.4 (182s)
+ext past-only, raw target | seed 1
+  seed 1 epoch 1: val RMSE 93.75 MAE 70.09 sMAPE 79.8 (37s)
+  seed 1 epoch 2: val RMSE 91.59 MAE 69.74 sMAPE 79.5 (73s)
+  seed 1 epoch 3: val RMSE 91.47 MAE 69.21 sMAPE 79.4 (110s)
+  seed 1 epoch 4: val RMSE 91.32 MAE 69.12 sMAPE 79.2 (146s)
+  seed 1 epoch 5: val RMSE 92.03 MAE 70.47 sMAPE 79.7 (182s)
+  seed 1 epoch 6: val RMSE 91.53 MAE 69.50 sMAPE 79.4 (219s)
+ext past-only, raw target | seed 2
+  seed 2 epoch 1: val RMSE 93.60 MAE 69.81 sMAPE 81.3 (37s)
+  seed 2 epoch 2: val RMSE 92.95 MAE 70.71 sMAPE 80.7 (73s)
+  seed 2 epoch 3: val RMSE 92.98 MAE 71.89 sMAPE 80.8 (110s)
+  seed 2 epoch 4: val RMSE 93.18 MAE 72.16 sMAPE 80.8 (146s)
+ext future, raw target | seed 0
+  seed 0 epoch 1: val RMSE 75.76 MAE 57.61 sMAPE 72.2 (36s)
+  seed 0 epoch 2: val RMSE 73.02 MAE 53.71 sMAPE 72.6 (70s)
+  seed 0 epoch 3: val RMSE 74.49 MAE 56.23 sMAPE 72.5 (105s)
+  seed 0 epoch 4: val RMSE 73.98 MAE 55.82 sMAPE 72.5 (139s)
+ext future, raw target | seed 1
+  seed 1 epoch 1: val RMSE 73.26 MAE 55.29 sMAPE 70.8 (35s)
+  seed 1 epoch 2: val RMSE 71.44 MAE 55.59 sMAPE 71.3 (69s)
+  seed 1 epoch 3: val RMSE 69.63 MAE 54.19 sMAPE 70.0 (103s)
+  seed 1 epoch 4: val RMSE 69.29 MAE 53.97 sMAPE 69.7 (137s)
+  seed 1 epoch 5: val RMSE 69.04 MAE 53.80 sMAPE 69.8 (172s)
+  seed 1 epoch 6: val RMSE 68.92 MAE 53.70 sMAPE 69.6 (207s)
+  seed 1 epoch 7: val RMSE 69.17 MAE 54.07 sMAPE 69.7 (241s)
+  seed 1 epoch 8: val RMSE 68.75 MAE 53.59 sMAPE 69.5 (276s)
+ext future, raw target | seed 2
+  seed 2 epoch 1: val RMSE 74.95 MAE 53.60 sMAPE 73.0 (35s)
+  seed 2 epoch 2: val RMSE 74.36 MAE 56.45 sMAPE 72.9 (69s)
+  seed 2 epoch 3: val RMSE 77.58 MAE 60.57 sMAPE 74.0 (103s)
+  seed 2 epoch 4: val RMSE 76.42 MAE 59.74 sMAPE 73.4 (138s)
+ext future, log target | seed 0
+  seed 0 epoch 1: val RMSE 77.80 MAE 52.27 sMAPE 62.5 (35s)
+  seed 0 epoch 2: val RMSE 75.54 MAE 49.61 sMAPE 59.9 (69s)
+  seed 0 epoch 3: val RMSE 73.28 MAE 47.67 sMAPE 58.9 (104s)
+  seed 0 epoch 4: val RMSE 72.64 MAE 47.24 sMAPE 59.1 (138s)
+  seed 0 epoch 5: val RMSE 73.18 MAE 47.32 sMAPE 59.0 (174s)
+  seed 0 epoch 6: val RMSE 71.32 MAE 46.44 sMAPE 58.0 (209s)
+  seed 0 epoch 7: val RMSE 72.02 MAE 46.80 sMAPE 58.3 (243s)
+  seed 0 epoch 8: val RMSE 72.23 MAE 46.93 sMAPE 58.5 (277s)
+ext future, log target | seed 1
+  seed 1 epoch 1: val RMSE 78.40 MAE 50.51 sMAPE 60.5 (34s)
+  seed 1 epoch 2: val RMSE 79.61 MAE 50.81 sMAPE 62.0 (68s)
+  seed 1 epoch 3: val RMSE 80.78 MAE 51.42 sMAPE 63.1 (103s)
+ext future, log target | seed 2
+  seed 2 epoch 1: val RMSE 77.82 MAE 51.13 sMAPE 61.0 (35s)
+  seed 2 epoch 2: val RMSE 79.00 MAE 51.36 sMAPE 62.2 (69s)
+  seed 2 epoch 3: val RMSE 75.33 MAE 49.34 sMAPE 59.6 (104s)
+  seed 2 epoch 4: val RMSE 76.99 MAE 49.83 sMAPE 60.8 (138s)
+  seed 2 epoch 5: val RMSE 76.46 MAE 49.39 sMAPE 60.0 (173s)
+                           rmse_mean  rmse_std  mae_mean  smape_mean  best_epoch_mean   params
+config                                                                                        
+no ext, raw target             95.28      0.31     72.35       81.13             2.00  21441.0
+no ext, log target             96.54      0.13     67.58       82.86             2.67  21441.0
+ext past-only, raw target      92.41      0.95     70.21       80.12             3.00  22081.0
+ext future, raw target         72.04      2.93     54.58       71.67             4.00  22081.0
+ext future, log target         75.02      3.55     48.76       59.39             3.33  22081.0

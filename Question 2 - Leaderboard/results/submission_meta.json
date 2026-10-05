@@ -1,0 +1,17 @@
+{
+  "d": 32,
+  "heads": 4,
+  "d_ff": 64,
+  "kernel": 25,
+  "dropout": 0.1,
+  "lr": 0.001,
+  "batch": 64,
+  "max_epochs": 8,
+  "patience": 2,
+  "train_stride": 4,
+  "log": false,
+  "ext": "future",
+  "epochs": 4,
+  "seed": 0,
+  "trainable_params": 22081
+}
